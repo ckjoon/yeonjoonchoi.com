@@ -1,21 +1,60 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<app-layout>
+  <section class="card wow fadeIn animated blue-gradient" style=" visibility: visible; animation-name: fadeIn;">
 
-<router-outlet></router-outlet>
+    <!-- Content -->
+    <div class="card-body text-white text-center py-5 px-5 my-5">
+
+        <h1 class="mb-4">
+            <strong>Thanks for visiting my website</strong>
+        </h1>
+
+        <p class="mb-4">
+            <strong>This is an evolving website for me to showcase my work. Please follow my progress by subscribing my Medium post</strong>
+        </p>
+        <a target="_blank" href="https://medium.com/project-manager-for-one" class="btn btn-outline-white btn-lg waves-effect waves-light">Medium Post ->
+            <i class="fab fa-medium"></i>
+        </a>
+
+    </div>
+    <!-- Content -->
+</section>
+
+<hr class="my-5">
+<div class="row mt-3 wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+
+  <!--Grid column-->
+  <div class="col-lg-5 col-xl-4 mb-4">
+    <!--Featured image-->
+    <div class="view overlay rounded z-depth-1">
+      <img src="assets/img/profile.png" class="img-fluid" alt="">
+      <a href="https://mdbootstrap.com/education/tech-marketing/automated-app-introduction/" target="_blank">
+        <div class="mask rgba-white-slight waves-effect waves-light"></div>
+      </a>
+    </div>
+  </div>
+  <!--Grid column-->
+
+  <!--Grid column-->
+  <div class="col-lg-7 col-xl-7 ml-xl-4 mb-4">
+    <h3 class="mb-3 font-weight-bold dark-grey-text">
+      <strong>About Me</strong>
+    </h3>
+    <p class="dark-grey-text">You can call me Joon. Hopefully that gets rid of awkwardness of having to pronounce my name. I graduated at Georgia Tech in 2017 as the computer science major. Currently, I work at Citi FinTech as the Program Manager in New York. I started building this website to see if I can create a website that I can use to tell people who I am and what I do. 
+  </p>
+    <h3 class="mb-3 font-weight-bold dark-grey-text">
+      <strong>Connect With Me</strong>
+    </h3>
+    <p>Please connect with me through these social channels:<a class="nav-item nav-link"  style="display:inline" href="https://github.com/ckjoon" target="_blank"><i class="fab fa-github ml-2"></i></a><a class="nav-item nav-link"  style="display:inline" href="https://www.linkedin.com/in/yeonjoon-choi/" target="_blank">
+      <i class="fab fa-linkedin ml-2"></i>
+    </a>
+    <a  style="display:inline"class="nav-item nav-link" href="https://medium.com/@ckjoon" target="_blank">
+      <i class="fab fa-medium ml-2"></i></a></p>
+    <p class="dark-grey-text">  You can also find my resume<a href="assets/file/Yeonjoon Choi - Resume 06:02:2019.pdf" target="_blank"> here</a> </p>
+  
+  </div>
+  <!--Grid column-->
+
+</div>
+</app-layout>
+
+
